@@ -9,15 +9,13 @@ No transactional support from Mongo, so cannot use transaction management in the
 
 ## Installing and running
 
-- Install Mongodb
-
-See http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/.
+Install Mongodb.  See http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/.
 
     $ brew install mongodb
 
 Follow instructions to load using launchctl.
 
-- Install Maven
+Install Maven and run tests:
 
     $ mvn test
 
